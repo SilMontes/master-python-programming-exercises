@@ -2,7 +2,7 @@
 name=input("What is your name? ")
 def hello_name(name):
 
-    return "Hello, " + name + '!'
+    return f"Hello, {name}!"
 
 
 
