@@ -1,2 +1,6 @@
 import math
-print( round(math.sqrt(2*50*100/30)))
+
+valuesOf = input()
+valuesofD=valuesOf.split(',')
+newValues = list(map(lambda value:  round(math.sqrt(2 * 50 * int(round(float(value))) / 30)), valuesofD))
+print(newValues)
